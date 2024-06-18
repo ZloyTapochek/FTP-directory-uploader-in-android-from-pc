@@ -2,7 +2,7 @@ from ftplib import FTP
 import shutil
 import os
 
-PathToSource = #Source directory
+PathToSource = r"F:/Obsidian" #Source directory
 try:
     ftp = FTP()
     ftp.connect("YOUR IP", YOUR PORT)
